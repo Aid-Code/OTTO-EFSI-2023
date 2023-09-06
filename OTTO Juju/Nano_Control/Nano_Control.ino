@@ -6,7 +6,6 @@
 #define VRY A4  // Arduino pin connected to Servo motor 1
 
 int i = 2000;
-int s = 3000;
 int x;
 int y;
 
@@ -34,7 +33,6 @@ void loop() {
 
   radio.write(&i, sizeof(i));
   radio.write(&x, sizeof(x));
-  radio.write(&s, sizeof(s));
   radio.write(&y, sizeof(y));
 
 }
