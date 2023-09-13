@@ -7,11 +7,13 @@
 #include <Otto.h>
 Otto Otto;  //This is Otto!
 
-#define LeftLeg 2 
-#define RightLeg 3
-#define LeftFoot 4 
-#define RightFoot 5 
+#define LeftLeg 2 //Servo pierna izquierda
+#define RightLeg 3 //Servo pierna derecha
+#define LeftFoot 4 //Servo pie izquierdo
+#define RightFoot 5 //Servo pie derecho 
 #define Buzzer  13 
+
+//Pines de matriz de leds que no necesitamos actualmente
 #define DIN A3 // Data In pin
 #define CS A2  // Chip Select pin
 #define CLK A1 // Clock pin
@@ -22,7 +24,7 @@ Otto Otto;  //This is Otto!
 ///////////////////////////////////////////////////////////////////
 void setup(){
   Otto.init(LeftLeg, RightLeg, LeftFoot, RightFoot, true, Buzzer); //Set the servo pins and Buzzer pin
-  Otto.initMATRIX( DIN, CS, CLK, Orientation);
+  //Otto.initMATRIX( DIN, CS, CLK, Orientation);
   Otto.sing(S_connection); //Otto wake up!
   Otto.home();
     delay(50);
