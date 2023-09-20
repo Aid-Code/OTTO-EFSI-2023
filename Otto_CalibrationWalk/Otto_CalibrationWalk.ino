@@ -11,7 +11,7 @@
 Otto Otto;  //This is Otto!
 
 #define LeftLeg 2 
-#define RightLeg 3
+#define RightLeg 10
 #define LeftFoot 4 
 #define RightFoot 5 
 #define Buzzer  13 
