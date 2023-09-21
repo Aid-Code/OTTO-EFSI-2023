@@ -9,10 +9,10 @@ int i;
   int positions[] = {90, 90, 90, 90};
   int8_t trims[4] = {0,0,0,0};
 
-#define LeftLeg 2 // left leg pin, servo[0]
-#define RightLeg 3 // right leg pin, servo[1]
-#define LeftFoot 4 // left foot pin, servo[2]
-#define RightFoot 5 // right foot pin, servo[3]
+#define LeftLeg 9 // left leg pin, servo[0]
+#define RightLeg 10 // right leg pin, servo[1]
+#define LeftFoot 6 // left foot pin, servo[2]
+#define RightFoot 3 // right foot pin, servo[3]
 #define Buzzer 13 //buzzer pin
 
 

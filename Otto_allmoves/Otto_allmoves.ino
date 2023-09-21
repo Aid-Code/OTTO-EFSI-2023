@@ -7,10 +7,10 @@
 #include <Otto.h>
 Otto Otto;  //This is Otto!
 
-#define LeftLeg 2 //Servo pierna izquierda
-#define RightLeg 3 //Servo pierna derecha
-#define LeftFoot 4 //Servo pie izquierdo
-#define RightFoot 5 //Servo pie derecho 
+#define LeftLeg 9 //Servo pierna izquierda
+#define RightLeg 10 //Servo pierna derecha
+#define LeftFoot 6 //Servo pie izquierdo
+#define RightFoot 3 //Servo pie derecho 
 #define Buzzer  13 
 
 //Pines de matriz de leds que no necesitamos actualmente
