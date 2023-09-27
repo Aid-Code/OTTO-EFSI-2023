@@ -133,6 +133,7 @@ void loop() {
     case ULTRASONICO:
       if (flagBot == 1) {
         modo = JOYSTICK;
+        Serial.println("Modo ultrasonico");
         flagBot = 0;
       }
 

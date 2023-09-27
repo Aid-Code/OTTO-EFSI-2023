@@ -31,6 +31,8 @@ void loop() {
   x = analogRead(VRX);
   y = analogRead(VRY);
 
+  Serial.println(x);
+
   radio.write(&i, sizeof(i));
   radio.write(&x, sizeof(x));
   radio.write(&y, sizeof(y));
