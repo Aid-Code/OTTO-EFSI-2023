@@ -10,10 +10,14 @@
 #include <Otto.h> //-- Otto Library
 Otto Otto;  //This is Otto!
 
+<<<<<<< HEAD
 #define LeftLeg 3
+=======
+#define LeftLeg 9
+>>>>>>> 8b2b791a38d865851b7b277e83ab45ac228705d2
 #define RightLeg 10
-#define LeftFoot 4 
-#define RightFoot 5 
+#define LeftFoot 6 
+#define RightFoot 3 
 #define Buzzer  13 
 
 double angle_rad = PI/180.0;
@@ -118,10 +122,10 @@ void loop(){
 
 void calib_homePos() {
   int servoPos[4];
-  servoPos[0]=90;
-  servoPos[1]=90;
-  servoPos[2]=90;
-  servoPos[3]=90;
+  servoPos[0]=180;
+  servoPos[1]=180;
+  servoPos[2]=180;
+  servoPos[3]=180;
   Otto._moveServos(500, servoPos);
   Otto.detachServos();
 }
