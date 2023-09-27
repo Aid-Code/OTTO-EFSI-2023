@@ -93,7 +93,7 @@ void leerUS(void) {
 
 void recibirComunicacion (void) {
   if (radio.available()) {
-    texto = "";
+    //texto = "";
 
     radio.read(&texto, sizeof(texto));
 

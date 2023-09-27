@@ -10,7 +10,7 @@
 #include <Otto.h> //-- Otto Library
 Otto Otto;  //This is Otto!
 
-#define LeftLeg 2 
+#define LeftLeg 3
 #define RightLeg 10
 #define LeftFoot 4 
 #define RightFoot 5 
